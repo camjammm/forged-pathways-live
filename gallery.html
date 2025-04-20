@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gallery – Forged Pathways</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+    .gallery img {
+      max-width: 300px;
+      border: 3px solid #ffaa00;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    h2 {
+      text-align: center;
+      color: #ffaa00;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Forged Pathways</h1>
+    <p>Welding With Precision, Purpose, and Pride</p>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="programs.html">Programs</a> |
+      <a href="intake.html">Intake</a> |
+      <a href="donate.html">Donate</a> |
+      <a href="contact.html">Contact</a> |
+      <a href="gallery.html">Gallery</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Our Work</h2>
+    <div class="gallery">
+      <img src="image1.jpg" alt="Weld Close-up">
+      <img src="image2.jpg" alt="Fixture Weld">
+      <img src="image3.jpg" alt="Welding in Progress">
+      <img src="image4.jpg" alt="Bright Arc">
+      <img src="image5.jpg" alt="Weld Line">
+      <img src="image6.jpg" alt="Underbody Weld">
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2025 Forged Pathways</p>
+  </footer>
+</body>
+</html>
